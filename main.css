@@ -1,0 +1,23 @@
+
+html {
+	height: 100%;
+}
+
+.row {
+	height: 100%;
+}
+
+.col-md-1 {
+	height: 100%;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.on {
+	background-color: red;
+}
+
+
+.off {
+	background-color: gray;
+}
