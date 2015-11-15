@@ -7,7 +7,7 @@ html {
 	height: 100%;
 }
 
-.col-md-1 {
+.col-md-2 {
 	height: 100%;
 	border-left: 1px solid white;
 	border-right: 1px solid white;
@@ -20,4 +20,25 @@ html {
 
 .off {
 	background-color: gray;
+}
+
+#nowplaying {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.col-md-2:nth-child(6) {
+	background-color: #eee;
+	padding-left: 0px;
+	font-size: 1.5em;
+}
+
+#nowplaying li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#nowplaying li.selected {
+	background-color: blue;
+	color: #eee;
 }
